@@ -3,7 +3,7 @@
     padding: 0;
   }
   body {
-    background-color: rgb(0, 0, 33);
+background-color: #faf9ff;
     color: white;
   }
   nav {
@@ -31,18 +31,19 @@
   color: rgb(140, 140, 244);
   }
   nav ul li a{
-    text-decoration: none;
+    text-decoration: none; 
     color: white;
     }
   .FirstSec {
     display: flex;
     justify-content: space-around;
-    margin: 40px 0;
+    margin: 4px 0px 49px 0px;
   }
   .FirstSec > div {
-    width: 30%;
+    width: 40%;
   }
   .leftSec {
+    color: black;
     width: 50%;
     font-size: 2.5rem;
     margin: 30px;
@@ -54,7 +55,7 @@
     text-transform: uppercase;
   }
   #element::after {
-    content :'|';
+    /* content :'|'; */
     display: inline;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
@@ -85,7 +86,55 @@
 
 
 .rightSec img{
-  margin: 0px 60px;
-  width: 60%;
+  margin: 0px 10px;
+  width: 90%;
   /* height: 80%; */
+}
+.violet{
+  color:   #c77dff;
+}
+footer{
+  background-color: #303067;
+  /* height: 233px; */
+}
+.footer{
+ padding: 16px 10px 0px 120px;
+justify-content: space-evenly;
+  display: flex;
+
+}
+.footer ul{
+  list-style: none;
+}
+.footer >div{
+  width: 500px;
+}
+footer .Footer-rights{
+text-align: center;
+color: grey;
+padding: 12px;
+}
+.footer ul li img{
+  width: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+footer .footer-third ul li a{
+  text-decoration: none; 
+  color: white;
+}
+footer .footer-third ul li a img{
+width: 30px;
+}
+
+footer .footer-second ul li a{
+  text-decoration: none; 
+  color: white;
+}
+footer .footer-second ul li img{
+  width: 30px;
+}
+footer .footer-first ul li a{
+  text-decoration: none; 
+  color: white;
 }
