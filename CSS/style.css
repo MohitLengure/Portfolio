@@ -115,26 +115,33 @@ color: grey;
 padding: 12px;
 }
 .footer ul li img{
-  width: 20px;
+  width: 36px;
   text-decoration: none;
   cursor: pointer;
+}
+footer .footer-first ul li a{
+  text-decoration: none; 
+  color: white;
+}
+footer .footer-first ul li img {
+  width: 40px;
+}
+footer .footer-second ul li a{
+  text-decoration: none; 
+  color: white;
+}
+footer .footer-second ul li img{
+  width: 40px;
 }
 footer .footer-third ul li a{
   text-decoration: none; 
   color: white;
 }
 footer .footer-third ul li a img{
-width: 30px;
+width: 40px;
 }
+footer .footer-third ul li a img Map{
+  width: 80px;
+  }
+  
 
-footer .footer-second ul li a{
-  text-decoration: none; 
-  color: white;
-}
-footer .footer-second ul li img{
-  width: 30px;
-}
-footer .footer-first ul li a{
-  text-decoration: none; 
-  color: white;
-}
