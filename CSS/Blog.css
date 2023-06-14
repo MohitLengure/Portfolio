@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+background-color: #faf9ff;
+    color: white;
+  }
+  nav {
+    background-color: rgb(18, 18, 62);
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  .left{
+    font-size: 1.5rem;
+  }
+ 
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    cursor: pointer;
+    font-size: 1rem;
+    list-style: none;
+    margin: 0 26px;
+  }
+  nav ul li a:hover{
+  color: rgb(140, 140, 244);
+  }
+  nav ul li a{
+    text-decoration: none; 
+    color: white;
+    }
+  .FirstSec {
+    display: flex;
+    justify-content: space-around;
+    margin: 4px 0px 49px 0px;
+  }
+  .FirstSec > div {
+    width: 40%;
+  }
+  .leftSec {
+    color: black;
+    width: 50%;
+    font-size: 2.5rem;
+    margin: 30px;
+  }
+  .purple{
+    color: rgb(170, 107, 228);
+  }
+  #element{
+    text-transform: uppercase;
+  }
+  #element::after {
+    /* content :'|'; */
+    display: inline;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation:blink 0.7s infinite;
+  }
+  /* Removes cursor that comes with typed.js*/
+.element-cursor{
+  opacity: 0;
+  display: none;
+}
+@keyframes blink{
+  0%{opacity: 1;}
+  50%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@-webkit-keyframes blink{
+  0%{opacity: 1;}
+  50%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+  0%{opacity: 1;}
+  50%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+
+.rightSec img{
+  margin: 0px 10px;
+  width: 90%;
+  /* height: 80%; */
+}
+.violet{
+  color:   #c77dff;
+}
+footer{
+  background-color: #303067;
+  /* height: 233px; */
+}
+.footer{
+ padding: 16px 10px 0px 120px;
+justify-content: space-evenly;
+  display: flex;
+
+}
+.footer ul{
+  list-style: none;
+}
+.footer >div{
+  width: 500px;
+}
+footer .Footer-rights{
+text-align: center;
+color: grey;
+padding: 12px;
+}
+.footer ul li img{
+  width: 36px;
+  text-decoration: none;
+  cursor: pointer;
+}
+footer .footer-first ul li a{
+  text-decoration: none; 
+  color: white;
+}
+footer .footer-first ul li img {
+  width: 40px;
+}
+footer .footer-second ul li a{
+  text-decoration: none; 
+  color: white;
+}
+footer .footer-second ul li img{
+  width: 40px;
+}
+footer .footer-third ul li a{
+  text-decoration: none; 
+  color: white;
+}
+footer .footer-third ul li a img{
+width: 40px;
+}
+footer .footer-third ul li a img Map{
+  width: 80px;
+  }
+  
+
+  /* Main */
+  
