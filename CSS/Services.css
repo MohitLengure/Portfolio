@@ -181,9 +181,10 @@ footer .footer-third ul li a img Map{
 
 @media screen and (max-width:480px){
   nav ul li {
-    margin: 0 14px;
-    font-size: 0.8rem;
+    margin: 0 11px;
+    font-size: 1rem;
   }
+
 .footer
 {
   font-size: 0.8rem;

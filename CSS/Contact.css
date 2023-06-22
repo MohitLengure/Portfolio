@@ -332,8 +332,8 @@ padding: 20px 0px 20px 0px;
 
  @media screen and (max-width:480px){
   nav ul li {
-    margin: 0 14px;
-    font-size: 0.8rem;
+    margin: 0 11px;
+    font-size: 1rem;
   }
   .formEntry {
     margin: 30px auto; 
