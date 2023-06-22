@@ -332,7 +332,7 @@ padding: 20px 0px 20px 0px;
 
  @media screen and (max-width:480px){
   nav ul li {
-    margin: 0 4px;
+    margin: 0 14px;
     font-size: 0.8rem;
   }
   .formEntry {
@@ -341,37 +341,52 @@ padding: 20px 0px 20px 0px;
     padding: 10px;
   }
   .form {
-    max-width: 260px;
+    max-width: 360px;
 }
 .title {
-  margin: 10px 0px 0px 24px;
+  margin: 2px 0px 0px 26px;
 }
-
+.name{
+  height: 30px;
+  width: 300px;
+}
 .name:hover {
   height: 30px;
-  width: 240px;
+  width: 350px;
 }
 
+.email{
+  height: 30px;
+  width: 300px;
+}
 .email:hover {
   height: 30px;
-  width: 240px;
+  width: 350px;
 }
 
-.message:hover {
-  height: 12em;
-  width: 240px;
+.phone{
+  height: 30px;
+  width: 300px;
 }
-
 .phone:hover {
   height: 30px;
-  width: 240px;
+  width: 350px;
+}
+
+.message{
+  height: 12rem;
+  width: 300px;
+}
+.message:hover {
+  height: 12em;
+  width: 350px;
 }
 
 .submit{
-  width: 180px ;
+  width: 200px ;
 }
 .submit:hover{
-  width: 220px ;
+  width: 240px ;
 }
 .termsConditions {
   margin-left: 30px;
@@ -389,6 +404,6 @@ padding: 20px 0px 20px 0px;
   padding: 0px 0px 40px 0px;
 }
 .left {
-  font-size: 1.2rem;
+  font-size: auto;
 }
 }
