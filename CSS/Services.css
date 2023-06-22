@@ -180,9 +180,13 @@ footer .footer-third ul li a img Map{
 
 
 @media screen and (max-width:480px){
+    
+  body {
+    overflow-x: hidden; /* Hide vertical scrollbars */
+  }
   nav ul li {
-    margin: 0 11px;
-    font-size: 1rem;
+    margin: 0 9px;
+    font-size: 1rem;;
   }
 
 .footer
