@@ -295,3 +295,32 @@ padding: 20px 0px 20px 0px;
     margin-left: 49%;
     background-color: red; 
 } */
+
+
+/* Responsive  */
+@media screen and (max-width: 1400px) {
+  nav{
+    flex-direction: column;
+  }
+  nav ul li {
+    margin: 0 10px;
+  }
+  .rightSec img {
+    margin: 0px 38px;
+    width: 200%;
+  }
+  .footer {
+    padding: 16px 10px 0px 30px;
+    display: block;
+    justify-content: space-evenly;
+  }
+  .footer>div{
+    padding: 0px 0px 40px 20px;
+  }
+.form{
+  max-width: 392px;
+}
+.termsConditions {
+  margin: 0 auto 5px 47px;
+}
+}

@@ -145,3 +145,36 @@ footer .footer-third ul li a img Map{
   }
   
 
+  
+/* Responsive  */
+@media screen and (max-width: 1400px) {
+  .FirstSec{
+flex-direction: column-reverse;
+  }
+  nav{
+    flex-direction: column;
+  }
+  nav ul li {
+    margin: 0 10px;
+  }
+  .rightSec img {
+    margin: 0px 38px;
+    width: 200%;
+  }
+  .footer {
+    padding: 16px 10px 0px 30px;
+    display: block;
+    justify-content: space-evenly;
+  }
+  .footer>div{
+    padding: 0px 0px 40px 20px;
+  }
+  .leftSec {
+    margin: 68px;
+  }
+  .leftSec {
+    /* background-color: red;
+    width: 400px;
+    height: 665px; */
+  }
+}
