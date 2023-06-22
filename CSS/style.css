@@ -148,6 +148,14 @@ footer .footer-third ul li a img Map{
   
 /* Responsive  */
 @media screen and (max-width: 1400px) {
+
+  .element { -ms-overflow-style: none; }
+  .element { overflow: -moz-scrollbars-none; }
+  .element::-webkit-scrollbar { width: 0 !important }
+
+  body {
+    overflow-x: hidden; /* Hide vertical scrollbars */
+  }
   .FirstSec{
 flex-direction: column-reverse;
   }

@@ -166,6 +166,9 @@ margin: 70px 1px;
 
     /* Responsive  */
     @media screen and (max-width: 1400px) {
+      body {
+        overflow-x: hidden; /* Hide vertical scrollbars */
+      }
       nav{
         flex-direction: column;
       }

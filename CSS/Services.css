@@ -152,6 +152,9 @@ footer .footer-third ul li a img Map{
 
     /* Responsive  */
 @media screen and (max-width: 1400px) {
+  body {
+    overflow-x: hidden; /* Hide vertical scrollbars */
+  }
   nav{
     flex-direction: column;
   }

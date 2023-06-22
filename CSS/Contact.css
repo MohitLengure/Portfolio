@@ -299,6 +299,9 @@ padding: 20px 0px 20px 0px;
 
 /* Responsive  */
 @media screen and (max-width: 1400px) {
+  body {
+    overflow-x: hidden; /* Hide vertical scrollbars */
+  }
   nav{
     flex-direction: column;
   }
@@ -321,6 +324,7 @@ padding: 20px 0px 20px 0px;
   max-width: 392px;
 }
 .termsConditions {
-  margin: 0 auto 5px 47px;
+  margin-left: 46px;
+  margin-right: auto;
 }
 }

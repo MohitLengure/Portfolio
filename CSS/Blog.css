@@ -149,7 +149,11 @@ footer .footer-third ul li a img Map{
   
       /* Responsive  */
 @media screen and (max-width: 1400px) {
+  body {
+    overflow-x: hidden; /* Hide vertical scrollbars */
+  }
   nav{
+    width: auto;
     flex-direction: column;
   }
   nav ul li {
@@ -167,4 +171,5 @@ footer .footer-third ul li a img Map{
   .footer>div{
     padding: 0px 0px 40px 20px;
   }
+
 }
