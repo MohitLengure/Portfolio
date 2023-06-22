@@ -328,3 +328,67 @@ padding: 20px 0px 20px 0px;
   margin-right: auto;
 }
 }
+
+
+ @media screen and (max-width:480px){
+  nav ul li {
+    margin: 0 4px;
+    font-size: 0.8rem;
+  }
+  .formEntry {
+    margin: 30px auto; 
+    min-width: 200px;
+    padding: 10px;
+  }
+  .form {
+    max-width: 260px;
+}
+.title {
+  margin: 10px 0px 0px 24px;
+}
+
+.name:hover {
+  height: 30px;
+  width: 240px;
+}
+
+.email:hover {
+  height: 30px;
+  width: 240px;
+}
+
+.message:hover {
+  height: 12em;
+  width: 240px;
+}
+
+.phone:hover {
+  height: 30px;
+  width: 240px;
+}
+
+.submit{
+  width: 180px ;
+}
+.submit:hover{
+  width: 220px ;
+}
+.termsConditions {
+  margin-left: 30px;
+  margin-right: auto;
+}
+
+.Privacy {
+  margin-left: 30px;
+}
+.footer
+{
+  font-size: 0.8rem;
+}
+.footer>div{
+  padding: 0px 0px 40px 0px;
+}
+.left {
+  font-size: 1.2rem;
+}
+}
