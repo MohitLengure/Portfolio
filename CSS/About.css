@@ -211,4 +211,38 @@ height: 420px;
     font-size: 1.5rem;
     height: 1000px;
   }
+  .btns a {
+
+}
+}
+
+
+
+
+
+@media screen and (max-width:480px){
+  nav ul li {
+    margin: 0 14px;
+    font-size: 0.8rem;
+  }
+.footer
+{
+  font-size: 0.8rem;
+}
+.footer>div{
+  padding: 0px 0px 40px 0px;
+}
+.left {
+  font-size: auto;
+}
+.blue-btn:hover{
+  background-color: #03e9f4;
+  color: #050801;
+  box-shadow: 0px 0px 5px #03e9f4, 0px 0px 25px #03e9f4, 0px 0px 50px #03e9f4, 0px 0px 100px #03e9f4;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);  
+}
+
+.Intro {
+  margin: 40px 30px;
+}
 }

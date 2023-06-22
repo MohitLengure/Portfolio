@@ -186,3 +186,26 @@ flex-direction: column-reverse;
     height: 665px; */
   }
 }
+
+
+
+@media screen and (max-width:480px){
+  nav ul li {
+    margin: 0 14px;
+    font-size: 0.8rem;
+  }
+.footer
+{
+  font-size: 0.8rem;
+}
+.footer>div{
+  padding: 0px 0px 40px 0px;
+}
+.left {
+  font-size: auto;
+}
+.leftSec{
+  font-size: 1.8rem;
+}
+}
+

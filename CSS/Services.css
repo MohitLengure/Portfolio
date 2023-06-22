@@ -174,3 +174,24 @@ footer .footer-third ul li a img Map{
     padding: 0px 0px 40px 20px;
   }
 }
+
+
+
+
+
+@media screen and (max-width:480px){
+  nav ul li {
+    margin: 0 14px;
+    font-size: 0.8rem;
+  }
+.footer
+{
+  font-size: 0.8rem;
+}
+.footer>div{
+  padding: 0px 0px 40px 0px;
+}
+.left {
+  font-size: auto;
+}
+}
