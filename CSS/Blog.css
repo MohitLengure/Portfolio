@@ -147,6 +147,25 @@ footer .footer-third ul li a img Map{
 
   /* Main */
   
+  .blog{
+    width: auto;
+height: auto;
+position: relative;
+border: 5px solid #0f0f0f;
+border-radius: 5px;
+margin: 20px;
+  } 
+  .blog ul{
+    list-style: none;
+    border: #c77dff;
+    border-radius: 20px;
+  }
+  .blog ul li{
+    margin: 10px 20px;
+    color: black;
+  }
+
+
       /* Responsive  */
 @media screen and (max-width: 1400px) {
   body {
@@ -199,4 +218,11 @@ footer .footer-third ul li a img Map{
 .left {
   font-size: auto;
 }
+.blog{
+  width: 370px ;
+  word-wrap: break-word;
+}
+/* .blog ul li p{
+  width: 100px;
+} */
 }
