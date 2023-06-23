@@ -396,6 +396,7 @@ padding: 20px 0px 20px 0px;
   width: 240px ;
 }
 .termsConditions {
+  word-wrap: break-word;
   margin-left: 30px;
   margin-right: auto;
 }

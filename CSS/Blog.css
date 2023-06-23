@@ -219,7 +219,7 @@ margin: 20px;
   font-size: auto;
 }
 .blog{
-  width: 370px ;
+  width: auto ;
   word-wrap: break-word;
 }
 /* .blog ul li p{
