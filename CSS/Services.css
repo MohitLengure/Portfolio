@@ -147,6 +147,12 @@ footer .footer-third ul li a img Map{
 
   /* Main */
   
+ .des{
+  font-size: 2.5rem;
+  color: rebeccapurple;
+  margin: 0rem 20rem;
+ }
+
 
 
 
@@ -188,7 +194,9 @@ footer .footer-third ul li a img Map{
     margin: 0 9px;
     font-size: 1rem;;
   }
-
+  .footer >div {
+    width: 300px;
+  }
 .footer
 {
   font-size: 0.8rem;
@@ -198,5 +206,9 @@ footer .footer-third ul li a img Map{
 }
 .left {
   font-size: auto;
+}
+.des{
+  margin: 6px 20px 1px 20px;
+  font-size: 1.5rem;
 }
 }

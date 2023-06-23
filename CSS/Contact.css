@@ -339,6 +339,9 @@ padding: 20px 0px 20px 0px;
     margin: 0 9px;
     font-size: 1rem;;
   }
+  .footer >div {
+    width: 300px;
+  }
   .formEntry {
     margin: 30px auto; 
     min-width: 200px;
